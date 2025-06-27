@@ -3,6 +3,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import fs from "fs";
 
 import authRoutes from "./routes/auth.routes.js";
 import messageRoutes from "./routes/message.routes.js";
@@ -12,7 +13,14 @@ import connectToMongoDB from "./db/connectToMongoDB.js";
 import { app, server } from "./socket/socket.js";
 
 const __dirname = path.resolve();
-dotenv.config({ path: path.join(__dirname, "../.env") });
+// Try to load .env from backend directory first, then fallback to parent
+const backendEnv = path.join(__dirname, ".env");
+const parentEnv = path.join(__dirname, "../.env");
+if (fs.existsSync(backendEnv)) {
+  dotenv.config({ path: backendEnv });
+} else {
+  dotenv.config({ path: parentEnv });
+}
 console.log("Environment variables:", process.env);
 
 // const __dirname = path.resolve();
