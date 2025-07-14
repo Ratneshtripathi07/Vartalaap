@@ -50,7 +50,7 @@ Vartalaap (वार्तालाप) is a modern, real-time chat application 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Vartalaap.git
+git clone https://github.com/RatneshTripathi07/Vartalaap.git
 cd Vartalaap
 ```
 
@@ -92,7 +92,7 @@ Visit [http://localhost:5173](http://localhost:5173) to start chatting!
 
 ## 🖼️ App Preview
 
-> _Add screenshots or GIFs here: login, chat, sidebar, mobile view, etc._
+![Vartalaap Preview](https://raw.githubusercontent.com/RatneshTripathi07/Vartalaap/main/frontend/src/assets/LoginPage.png)
 
 ---
 
