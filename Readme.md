@@ -1,4 +1,4 @@
-# वर्तालाप (Vartalaap) – The Art of Conversation
+# वार्तालाप (Vartalaap) – The Art of Conversation
 
 > _"Where every conversation matters."_
 
@@ -6,7 +6,7 @@
 
 ![Vartalaap Banner](https://img.shields.io/badge/Vartalaap-Chat_App-blueviolet?style=for-the-badge&logo=wechat)
 
-Vartalaap (वर्तालाप) is a modern, real-time chat application inspired by the spirit of open, joyful conversation. Built with a robust Node.js/Express backend and a sleek React + Tailwind CSS frontend, it delivers a seamless messaging experience with a touch of Indian flair.
+Vartalaap (वार्तालाप) is a modern, real-time chat application inspired by the spirit of open, joyful conversation. Built with a robust Node.js/Express backend and a sleek React + Tailwind CSS frontend, it delivers a seamless messaging experience with a touch of Indian flair.
 
 ---
 
